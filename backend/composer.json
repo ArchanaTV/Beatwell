@@ -1,0 +1,20 @@
+{
+    "name": "beatwell/backend",
+    "description": "BeatWell Android App Backend API",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeatWell\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+

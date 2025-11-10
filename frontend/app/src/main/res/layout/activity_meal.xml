@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light"
+    tools:context=".MealActivity">
+
+    <!-- App Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/ivBackButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="@string/back_button_description"
+            android:padding="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Meal Type Title -->
+        <TextView
+            android:id="@+id/tvMealTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BREAKFAST"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Inspirational Quote -->
+            <TextView
+                android:id="@+id/tvInspirationalQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="&quot;Your heart beats for you—fuel it with care and consistency.&quot;"
+                android:textColor="@color/text_secondary"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginBottom="24dp"
+                android:fontStyle="italic" />
+
+            <!-- Meal Options -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here is your meal!"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMealOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                tools:listitem="@layout/item_meal_option" />
+
+            <!-- Portion Size Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/tvPortionSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Portion size: 50%"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/portionSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:valueFrom="0.25"
+                    android:valueTo="1.0"
+                    android:value="0.5"
+                    android:stepSize="0.25"
+                    app:thumbColor="@color/meal_breakfast"
+                    app:trackColorActive="@color/meal_breakfast"
+                    app:trackColorInactive="@color/background_light" />
+
+            </LinearLayout>
+
+            <!-- Save Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Save"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/meal_breakfast"
+                android:textColor="@color/white"
+                android:layout_marginBottom="16dp"
+                android:enabled="false"
+                android:alpha="0.5"
+                app:cornerRadius="10dp" />
+
+            <!-- Custom Meal Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCustomMeal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Custom"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/meal_lunch"
+                android:textColor="@color/white"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/ic_add"
+                app:iconGravity="textStart" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- BeatWell Brand Colors -->
+    <color name="beatwell_blue">#2958BD</color>
+    <color name="beatwell_purple">#7B2CBF</color>
+    
+    <!-- Meal Colors from Figma Design -->
+    <color name="meal_breakfast">#E21818</color>
+    <color name="meal_lunch">#2C9060</color>
+    <color name="meal_dinner">#2958BD</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F8FAFC</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    
+    <!-- Gray Scale -->
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_900">#111827</color>
+    
+    <!-- Border Colors -->
+    <color name="border_light">#F4F4F4</color>
+    
+    <!-- Navigation Colors -->
+    <color name="primary">#2958BD</color>
+    <color name="primary_light">#E3F2FD</color>
+    
+    <!-- Chat Interface Colors -->
+    <color name="primary_color">#2958BD</color>
+    <color name="ai_avatar_background">#E3F2FD</color>
+    <color name="user_avatar_background">#2958BD</color>
+    
+    <!-- Calendar Colors -->
+    <color name="calendar_selected">#FF0638</color>
+    <color name="calendar_today">#2958BD</color>
+    <color name="calendar_has_meal">#2C9060</color>
+    
+    <!-- Water Intake Colors -->
+    <color name="water_progress">#2958BD</color>
+    <color name="water_track">#E8DEF8</color>
+    
+    <!-- Profile Screen Colors -->
+    <color name="profile_card_background">#E2F1FF</color>
+    <color name="profile_header_gradient_start">#2958BD</color>
+    <color name="profile_header_gradient_end">#7B2CBF</color>
+    
+    <!-- Progress Card Colors -->
+    <color name="progress_background">#F3F4F6</color>
+    <color name="status_good">#2C9060</color>
+    <color name="status_warning">#F59E0B</color>
+    <color name="status_excellent">#10B981</color>
+</resources>
+

@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BeatWell</string>
+    <string name="welcome_message">Welcome to BeatWell!</string>
+    <string name="app_logo_description">BeatWell App Logo</string>
+    <string name="tagline_text">Fuel Your Recovery with Every Bite.</string>
+    <string name="get_started_text">Get Started</string>
+    
+    <!-- Login Screen Strings (matching Figma design) -->
+    <string name="login_title">Login</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="username_placeholder">Enter username</string>
+    <string name="password_placeholder">Enter password</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_icon_description">Login Icon</string>
+    <string name="sign_up_question_text">You Don\'t have an account ?</string>
+    <string name="sign_up_text">Sign up</string>
+    
+    <!-- Signup Screen Strings -->
+    <string name="email_label">Email</string>
+    <string name="email_placeholder">Enter email</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="confirm_password_placeholder">Confirm password</string>
+    <string name="signup_button_text">Sign Up</string>
+    <string name="signup_icon_description">Signup Icon</string>
+    <string name="login_question_text">Already have an account ?</string>
+    <string name="login_text">Login</string>
+    
+    <!-- Additional Signup Fields -->
+    <string name="first_name_label">First Name</string>
+    <string name="first_name_placeholder">Enter first name</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="last_name_placeholder">Enter last name</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="phone_placeholder">Enter phone number</string>
+    <string name="date_of_birth_label">Date of Birth</string>
+    <string name="date_of_birth_placeholder">Select date of birth</string>
+    <string name="gender_label">Gender</string>
+    <string name="address_label">Address</string>
+    <string name="address_placeholder">Enter address</string>
+    <string name="city_label">City</string>
+    <string name="city_placeholder">Enter city</string>
+    <string name="state_label">State</string>
+    <string name="state_placeholder">Enter state</string>
+    <string name="zip_code_label">Zip Code</string>
+    <string name="zip_code_placeholder">Enter zip code</string>
+    <string name="emergency_contact_name_label">Emergency Contact Name</string>
+    <string name="emergency_contact_name_placeholder">Enter emergency contact name</string>
+    <string name="emergency_contact_phone_label">Emergency Contact Phone</string>
+    <string name="emergency_contact_phone_placeholder">Enter emergency contact phone</string>
+    <string name="medical_conditions_label">Medical Conditions</string>
+    <string name="medical_conditions_placeholder">Enter any medical conditions</string>
+    <string name="allergies_label">Allergies</string>
+    <string name="allergies_placeholder">Enter any allergies</string>
+    
+    <!-- Home Screen Strings -->
+    <string name="user_profile_description">User Profile</string>
+    <string name="breakfast_description">Breakfast</string>
+    <string name="lunch_description">Lunch</string>
+    <string name="dinner_description">Dinner</string>
+    <string name="home_tab_description">Home Tab</string>
+    <string name="calendar_tab_description">Calendar Tab</string>
+    <string name="chat_tab_description">Chat Tab</string>
+    <string name="profile_tab_description">Profile Tab</string>
+    
+    <!-- Meal Type Strings -->
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    
+    <!-- Meal Activity Strings -->
+    <string name="back_button_description">Back Button</string>
+    <string name="meal_image_description">Meal Image</string>
+    <string name="portion_size_label">Portion size</string>
+    <string name="save_button_text">Save</string>
+    <string name="custom_meal_button_text">Custom</string>
+    <string name="meal_saved_successfully">Meal saved successfully!</string>
+    <string name="meal_save_failed">Failed to save meal. Please try again.</string>
+    <string name="select_meal_option">Please select a meal option</string>
+    <string name="custom_meal_coming_soon">Custom meal feature coming soon!</string>
+    
+    <!-- Custom Food Activity Strings -->
+    <string name="custom_food_title">Custom %1$s</string>
+    <string name="food_name_label">Food name</string>
+    <string name="food_name_hint">Enter food name</string>
+    <string name="notes_label">Notes (optional)</string>
+    <string name="notes_hint">Add any notes (optional)</string>
+    <string name="custom_food_saved">Custom food saved successfully!</string>
+    <string name="custom_food_save_failed">Failed to save custom food. Please try again.</string>
+    <string name="food_name_required">Please enter a food name</string>
+    
+    <!-- Profile Screen Strings -->
+    <string name="profile_picture_description">Profile Picture</string>
+    
+    <!-- Subscription Screen Strings -->
+    <string name="subscription_title">Choose Your Plan</string>
+    <string name="subscription_subtitle">Select a subscription plan to continue with BeatWell</string>
+    <string name="popular_badge">POPULAR</string>
+    <string name="best_value_badge">BEST VALUE</string>
+    <string name="free_trial_plan">Free Trial</string>
+    <string name="free_trial_description">Try all features for free</string>
+    <string name="free_trial_features">• Full access to all features\n• Personalized meal plans\n• AI-powered recommendations\n• Health tracking</string>
+    <string name="monthly_plan">Monthly Subscription</string>
+    <string name="monthly_plan_description">Flexible monthly billing</string>
+    <string name="monthly_plan_features">• All premium features\n• Unlimited meal plans\n• Priority AI support\n• Advanced analytics</string>
+    <string name="yearly_plan">Yearly Subscription</string>
+    <string name="yearly_plan_description">Best value for long-term users</string>
+    <string name="yearly_plan_features">• All premium features\n• Unlimited meal plans\n• Priority AI support\n• Advanced analytics\n• Exclusive content</string>
+    <string name="continue_button_text">Continue</string>
+</resources>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeatWell"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        
+        <!-- Splash Activity (Launcher) - Minimalistic with logo only -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BeatWell.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Landing Activity (Home Screen) - With tagline and Get Started button -->
+        <activity
+            android:name=".LandingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Subscription Activity -->
+        <activity
+            android:name=".SubscriptionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Meal Activity -->
+        <activity
+            android:name=".MealActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Custom Food Activity -->
+        <activity
+            android:name=".CustomFoodActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Calendar Activity -->
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Chat Activity -->
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Profile Activity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Edit Profile Activity -->
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Meal Log History Activity -->
+        <activity
+            android:name=".MealLogHistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+        
+        <!-- Debug Activity -->
+        <activity
+            android:name=".DebugActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BeatWell" />
+    </application>
+
+</manifest>
+

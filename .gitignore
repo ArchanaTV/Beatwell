@@ -1,0 +1,39 @@
+# Android
+frontend/.gradle/
+frontend/app/build/
+frontend/build/
+frontend/local.properties
+frontend/.idea/
+frontend/*.iml
+frontend/app/*.iml
+
+# PHP
+backend/vendor/
+backend/composer.lock
+backend/.env
+backend/logs/
+backend/cache/
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
