@@ -1,4 +1,4 @@
-# 🍎 BeatWell - Health & Nutrition Tracking App
+# 🍎 BeatWell - Meal Planner App for Heart Patients
 
 A complete Android application for tracking meals, water intake, and health metrics with a PHP/MySQL backend.
 
